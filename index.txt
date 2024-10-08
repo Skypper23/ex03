@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excelência Financeira</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#contatos">Contatos</a></li>
+				<div class="btns">
+					<button class="btn-primary" onclick="gotologin()">SignIn</button>
+					<button class="btn-signup" onclick="gotoregister()">SignUp</button>
+				</div>
+			</ul>
+		</nav>
+	</div>
+	<div id="home">
+		<h1>Oque iras aprender aqui na Excelência Financeira?</h1>
+		<p><strong>Finanças Pessoais</strong>: Aborda o gerenciamento das finanças pessoais, como orçamentos, poupança, aposentadoria, crédito e dívidas.</p>
+		<p><strong>Investimentos</strong>: Envolve estratégias de alocação de recursos em ativos como ações, títulos, imóveis e fundos, buscando maximizar o retorno sobre o investimento.</p>
+		<p><strong>Mercado Financeiro</strong>: Trata da estrutura e funcionamento dos mercados de ações, derivativos, câmbio e outros instrumentos financeiros.</p>
+		<p><strong>Finanças Corporativas</strong>: Foca na gestão financeira de empresas, cobrindo temas como fluxo de caixa, avaliação de empresas, fusões e aquisições e estrutura de capital.</p>
+	</div>
+</body>
+<script>
+        function gotologin() {
+            window.location.href = "login.php"; // Redireciona para a página login.php
+        }
+		function gotoregister() {
+            window.location.href = "register.php"; // Redireciona para a página register.php
+        }
+</script>
+</html>
