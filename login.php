@@ -44,7 +44,7 @@
             <label for="">Palavra-passe</label>
 			<input type="password" name="pass" placeholder="Palavra-passe">
 			<input type="submit" class="btn-primary" value="Login">
-		</form>	
+		</form>
 	</div>
 </body>
 </html>
